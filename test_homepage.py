@@ -11,7 +11,7 @@ class Test_automationpractice:
         #Drivers
         global driver
         caps = DesiredCapabilities.CHROME
-        driver = webdriver.Remote(command_executor='http://192.168.1.5:4444', desired_capabilities=caps)
+        driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub', desired_capabilities=caps)
         #Getting started
         driver.get('http://automationpractice.com/index.php')
         driver.maximize_window()
