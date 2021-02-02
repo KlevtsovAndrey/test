@@ -18,7 +18,6 @@ docker run chrome_autotest:1.0
 docker run -d -p 4444:4444 selenium/standalone-chrome
 
 2) В комадной строке прописать команду:
-
 pytest -v test_homepage.py
 ----------------------------------------------
 Дебаг для просмотра с помощью VNCViewer:
